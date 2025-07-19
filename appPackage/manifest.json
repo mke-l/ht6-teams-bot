@@ -14,12 +14,12 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "teamsbot2${{APP_NAME_SUFFIX}}",
-        "full": "full name for teamsbot2"
+        "short": "teamsbot${{APP_NAME_SUFFIX}}",
+        "full": "full name for teamsbot"
     },
     "description": {
-        "short": "short description for teamsbot2",
-        "full": "full description for teamsbot2"
+        "short": "short description for teamsbot",
+        "full": "full description for teamsbot"
     },
     "accentColor": "#FFFFFF",
     "bots": [
@@ -39,16 +39,16 @@
                     ],
                     "commands": [
                         {
-                            "title": "List Contoso history in table",
-                            "description": "Tell me the history of Contoso Electronics, format in a table."
+                            "title": "What are my dental benefits?",
+                            "description": "What are the dental benefits that Company A offers"
                         },
                         {
-                            "title": "Compare Contoso Electronics plan",
-                            "description": "Compare different Contoso Electronics benefit package plans"
+                            "title": "What vision plan is best for me?",
+                            "description": "Which Company A vision plan should I select?"
                         },
                         {
-                            "title": "Summarize PerksPlus Program",
-                            "description": "Summarize Contoso Electronics PerksPlus Program"
+                            "title": "I recently has a wisdom tooth removal, how much am I covered?",
+                            "description": "I recently has a wisdom tooth removal, how much am I covered?"
                         }
                     ]
                 }
