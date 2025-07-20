@@ -1,7 +1,6 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require('fs');
 const path = require('path');
-const { AzureAISearchDataSource } = require("./azureAISearchDataSource");
 
 class GeminiModelAdapter {
     constructor(apiKey, modelName = "gemini-2.0-flash") {
