@@ -5,7 +5,7 @@ const { AzureAISearchDataSource } = require("./azureAISearchDataSource");
 
 class GeminiModelAdapter {
     constructor(apiKey, modelName = "gemini-2.0-flash") {
-        this.genAI = new GoogleGenerativeAI(INSERT GEMINI API KEY);
+        this.genAI = new GoogleGenerativeAI('AIzaSyAVaZ_-07IPyeYXWIdrYUfTg-KGD_4SG7s');
         this.model = this.genAI.getGenerativeModel({ model: modelName });
         
         // Store reference to the data source for direct access
